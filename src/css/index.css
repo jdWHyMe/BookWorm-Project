@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #f4f4f4;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+}
+a {
+  color: #00eeff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #03afa4;
+}
+body {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:focus, button:focus-visible {
+  outline: 2px solid #f3ca12;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+}
+

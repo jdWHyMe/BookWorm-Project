@@ -1,0 +1,1 @@
+Simple web application to display books with short descriptions.
